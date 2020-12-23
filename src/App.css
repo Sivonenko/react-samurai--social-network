@@ -10,7 +10,7 @@
 }
 .header {
   grid-area: h;
-  background-color: rgb(235, 178, 178);
+  background-color: rgb(238, 201, 201);
 }
 .header img {
   width: 20px;
@@ -21,8 +21,8 @@
 }
 .content {
   grid-area: c;
-  background-color: rgb(168, 205, 226);
+  background-color: rgb(146, 174, 190);
 }
 .content img {
-  width: 100%;
+  width: 1000px;
 }
