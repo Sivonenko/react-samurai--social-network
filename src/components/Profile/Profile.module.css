@@ -6,12 +6,7 @@
   width: 1000px;
 }
 .title {
-  font-size: 20px;
-  padding: 10px;
-  color: rgb(87, 87, 87);
-}
-.caption__wrap {
-  padding: 15px;
-  color: rgb(122, 122, 122);
+  color: rgb(116, 108, 108);
   font-size: 18px;
+  padding: 20px;
 }

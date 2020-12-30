@@ -1,0 +1,11 @@
+.item {
+  color: rgb(75, 71, 71);
+  padding: 10px;
+}
+.item img {
+  width: 60px;
+  border-radius: 30px;
+}
+.like {
+  color: rgb(230, 111, 95);
+}
