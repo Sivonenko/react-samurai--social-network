@@ -19,10 +19,10 @@
   grid-area: n;
   background-color: rgba(224, 208, 156, 0.945);
 }
-.content {
+/* .content {
   grid-area: c;
   background-color: rgb(146, 174, 190);
 }
 .content img {
   width: 1000px;
-}
+} */

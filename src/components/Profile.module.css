@@ -1,0 +1,14 @@
+/* .content {
+  grid-area: c;
+  background-color: rgb(146, 174, 190);
+} */
+/* .content img {
+  width: 1000px;
+} */
+.content {
+  grid-area: c;
+  background-color: rgb(146, 174, 190);
+}
+.content__img {
+  width: 1000px;
+}
