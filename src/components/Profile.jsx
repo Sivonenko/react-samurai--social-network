@@ -11,12 +11,12 @@ const Profile = () => {
             alt=""
           />
         </div>
-        <div>ava + discription</div>
-        <div>
+        <div className={s.title}>Ava + discription</div>
+        <div className={s.caption__wrap}>
           My posts
-          <div>New post</div>
-          <div>post 1</div>
-          <div>post 2</div>
+          <div className={s.caption}>New post</div>
+          <div className={s.caption}>post 1</div>
+          <div className={s.caption}>post 2</div>
         </div>
       </div>
     )

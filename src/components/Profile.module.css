@@ -1,14 +1,17 @@
-/* .content {
-  grid-area: c;
-  background-color: rgb(146, 174, 190);
-} */
-/* .content img {
-  width: 1000px;
-} */
 .content {
   grid-area: c;
-  background-color: rgb(146, 174, 190);
+  background-color: rgb(188, 208, 219);
 }
 .content__img {
   width: 1000px;
+}
+.title {
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(87, 87, 87);
+}
+.caption__wrap {
+  padding: 15px;
+  color: rgb(122, 122, 122);
+  font-size: 18px;
 }

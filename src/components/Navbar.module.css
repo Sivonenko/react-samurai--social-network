@@ -1,4 +1,12 @@
 .nav {
   grid-area: n;
-  background-color: rgba(224, 208, 156, 0.945);
+  background-color: rgba(233, 221, 182, 0.945);
+  padding-top: 40px;
+}
+
+.item {
+  color: rgb(78, 117, 153);
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
 }
