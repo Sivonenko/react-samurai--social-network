@@ -10,3 +10,9 @@
   text-align: center;
   padding-top: 10px;
 }
+.item a {
+  color: rgb(255, 255, 255);
+}
+.item a.activeLink {
+  color: rgb(116, 154, 187);
+}
