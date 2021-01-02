@@ -1,0 +1,12 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Roboto;
+  color: rgb(15, 56, 92);
+}
+
+.dialogs__items .active {
+  color: aliceblue;
+}
