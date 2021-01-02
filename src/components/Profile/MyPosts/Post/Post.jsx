@@ -9,7 +9,7 @@ const Post = (props) => {
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCP_IOLOaOKZWOThCNAna7vap3qGc_ss0qWA&usqp=CAU" alt="cat" />
     {props.message}
       <div>
-        <span className={s.like}>{props.like}</span>
+        <span className={s.like}>Like {props.like}</span>
       </div>
     </div>
   );
