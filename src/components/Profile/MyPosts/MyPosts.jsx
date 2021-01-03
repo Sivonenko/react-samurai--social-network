@@ -9,8 +9,13 @@ const MyPosts = () => {
 
     <div className={s.caption}>
       <div className={s.button__wrap}>
-      <textarea></textarea>
-        <button>Add post</button>
+        <h3>My Post</h3>
+        <div>
+          <textarea></textarea>
+        </div>
+        <div>
+          <button>Add post</button>
+          </div>
         </div>
       <div className={s.item}>
         <Post message='Hello' like='15'/>
