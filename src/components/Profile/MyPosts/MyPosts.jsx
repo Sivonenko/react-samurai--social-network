@@ -3,8 +3,11 @@ import s from'./MyPosts.module.css'
 import Post from './Post/Post'
 
 
-const MyPosts = () => {
-
+const MyPosts = (props) => {
+let postData = [
+  { id: 1, message: 'Hello', likesCount: 12},
+  { id: 2, message: 'It"s my first post', likesCount: 16},
+  ]
   return (
 
     <div className={s.caption}>
@@ -18,8 +21,8 @@ const MyPosts = () => {
           </div>
         </div>
       <div className={s.item}>
-        <Post message='Hello' like='15'/>
-        <Post message="It's my first post" like='20'/>
+        <Post message={postData[0].message} like={postData[0].likesCount}/>
+        <Post message={postData[1].message} like={postData[1].likesCount}/>
           </div>
       </div>
     
