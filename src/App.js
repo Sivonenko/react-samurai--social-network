@@ -7,19 +7,28 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 
 const App = (props) => {
-
-
   return (
     <BrowserRouter>
-    <div className="app__wrapper">
-      <Header/>
-      <Navbar />
-      <div className='app__wrapper__content'>
-          <Route path='/dialogs' render={() => <Dialogs dialogsData={props.dialogsData} messageData={props.messageData}/>}/>
-          <Route path='/profile' render={() => <Profile postData={props.postData}/>} />
+      <div className="app__wrapper">
+        <Header />
+        <Navbar />
+        <div className="app__wrapper__content">
+          <Route
+            path="/dialogs"
+            render={() => (
+              <Dialogs
+                dialogsData={props.appState.dialogsData}
+                messageData={props.appState.messageData}
+              />
+            )}
+          />
+          <Route
+            path="/profile"
+            render={() => <Profile postData={props.appState.postData} />}
+          />
+        </div>
       </div>
-      </div>
-      </BrowserRouter>
+    </BrowserRouter>
   );
 };
 
