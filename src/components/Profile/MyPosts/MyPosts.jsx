@@ -4,13 +4,8 @@ import Post from './Post/Post'
 
 
 const MyPosts = (props) => {
-let postData = [
-  { id: 1, message: 'Hello', likesCount: 12},
-  { id: 2, message: 'It"s my first post', likesCount: 16},
   
-]
-  
-  let postElements = postData.map(post => <Post message={post.message} like={post.likesCount}/>)
+  let postElements = props.postData.map(post => <Post message={post.message} like={post.likesCount}/>)
   return (
 
     <div className={s.caption}>
