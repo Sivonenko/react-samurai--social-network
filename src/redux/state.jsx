@@ -20,9 +20,9 @@ let state = {
             { id: 1, message: "Hi" },
             { id: 2, message: "How are you?" },
             { id: 3, message: "Wow" },
-            { id: 4, message: "Call me!" },
+            { id: 4, message: "Call me!!!" },
             { id: 5, message: "Ok" },
-            { id: 6, message: "Goodbye" },
+            { id: 6, message: "Goodbye!" },
         ]
     }
 }
